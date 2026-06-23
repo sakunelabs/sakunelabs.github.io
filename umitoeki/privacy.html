@@ -89,12 +89,22 @@
         <p><em>Last updated: June 2026</em></p>
         <p>
           Umitoeki is an app for discovering seaside stations and sharing
-          photos of them. You can use it without creating an account or signing
-          in.
+          photos of them. Browsing works without an account; you only need to
+          sign in if you want to post photos, report content, or block other
+          users.
         </p>
 
         <h3>Data we collect</h3>
         <ul>
+          <li>
+            <strong>Account email.</strong> Signing in is optional, but it is
+            required to post photos, report content, or block other users. We
+            offer Sign in with Google and Sign in with Apple. When you sign in,
+            we receive and store the email address associated with your
+            account so we can keep your posts tied to your account and let you
+            manage or delete them. If you use Sign in with Apple and choose
+            "Hide My Email", we only receive Apple's private relay address.
+          </li>
           <li>
             <strong>Photos you post.</strong> When you choose to post a photo,
             the image is uploaded to our backend so it can be reviewed and, if
@@ -108,8 +118,9 @@
             objectionable content.
           </li>
           <li>
-            <strong>No account or personal profile.</strong> We do not ask for
-            your name, email, phone number, or location. There is no login.
+            <strong>What we do not collect.</strong> We do not ask for your
+            name, phone number, or device location, and we do not track your
+            location.
           </li>
         </ul>
 
@@ -123,8 +134,13 @@
         <h3>Third-party services</h3>
         <ul>
           <li>
-            <strong>Supabase</strong> hosts the station data, posted photos,
-            and reports described above.
+            <strong>Sign in with Google / Sign in with Apple</strong> handle
+            optional authentication. They provide us with the email address
+            tied to your account, as described above.
+          </li>
+          <li>
+            <strong>Supabase</strong> hosts the station data, your account, the
+            posted photos, and reports described above.
           </li>
           <li>
             <strong>Google Maps</strong> is used to display maps. Map usage is
@@ -137,6 +153,13 @@
             or payment details.
           </li>
         </ul>
+
+        <h3>Deleting your account</h3>
+        <p>
+          You can delete your account from within the app at any time. This
+          permanently removes your account, the photos you posted, and your
+          reports.
+        </p>
 
         <h3>Analytics &amp; tracking</h3>
         <p>
@@ -182,11 +205,21 @@
         <p><em>最終更新：2026年6月</em></p>
         <p>
           海と駅は、海の見える駅を探したり、その写真を共有したりするための
-          アプリです。アカウント登録やログインなしで利用できます。
+          アプリです。閲覧はアカウントなしで利用できます。写真の投稿・通報・
+          他の利用者のブロックを行うときだけ、ログインが必要です。
         </p>
 
         <h3>収集する情報</h3>
         <ul>
+          <li>
+            <strong>アカウントのメールアドレス。</strong>ログインは任意ですが、
+            写真の投稿・通報・他の利用者のブロックを行うには必要です。Google
+            サインイン、および Apple でサインインに対応しています。サインイン
+            すると、投稿をアカウントに紐づけて管理・削除できるよう、アカウント
+            に紐づくメールアドレスを取得・保存します。Apple でサインインで
+            「メールを非公開」を選んだ場合は、Apple の中継アドレスのみを
+            受け取ります。
+          </li>
           <li>
             <strong>投稿された写真。</strong>写真を投稿すると、その画像は
             審査のためにサーバーへアップロードされ、承認された場合は、
@@ -199,9 +232,8 @@
             削除できるよう、その写真の参照情報と選択された理由を保存します。
           </li>
           <li>
-            <strong>アカウント・個人プロフィールはありません。</strong>
-            氏名・メールアドレス・電話番号・位置情報などは取得しません。
-            ログイン機能もありません。
+            <strong>取得しない情報。</strong>氏名・電話番号・端末の位置情報は
+            取得せず、位置情報の追跡も行いません。
           </li>
         </ul>
 
@@ -215,8 +247,13 @@
         <h3>外部サービス</h3>
         <ul>
           <li>
-            <strong>Supabase</strong>：上記の駅データ、投稿写真、通報情報を
-            保管しています。
+            <strong>Google サインイン / Apple でサインイン</strong>：任意の
+            ログインに利用します。上記のとおり、アカウントに紐づくメール
+            アドレスが当方に提供されます。
+          </li>
+          <li>
+            <strong>Supabase</strong>：上記の駅データ、アカウント、投稿写真、
+            通報情報を保管しています。
           </li>
           <li>
             <strong>Google マップ</strong>：地図の表示に利用します。地図の
@@ -229,6 +266,12 @@
             ありません。
           </li>
         </ul>
+
+        <h3>アカウントの削除</h3>
+        <p>
+          アプリ内からいつでもアカウントを削除できます。削除すると、
+          アカウントと、投稿した写真・通報情報が完全に削除されます。
+        </p>
 
         <h3>解析・トラッキング</h3>
         <p>
